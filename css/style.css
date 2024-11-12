@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 149px auto;
+}
+.block__left {
+  text-align: center;
+}
+.block__left h1 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 1);
+}
+.block__left h4 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(82, 82, 82, 1);
+  margin-bottom: 24px;
+}
+#form input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+#input1 {
+  background-image: url(../image/user-regular.svg);
+  width: 364px;
+  margin-bottom: 18px;
+  height: 52px;
+  border-radius: 16px;
+  background-color: #f0edffcc;
+  border: none;
+  padding-left: 46px;
+  font-size: larger;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 18px;
+  background-size: 20px 20px;
+}
+#input2 {
+  background-image: url(../image/lock-solid.svg);
+  width: 364px;
+  margin-bottom: 18px;
+  height: 52px;
+  border-radius: 16px;
+  background-color: #f0edffcc;
+  border: none;
+  padding-left: 46px;
+  font-size: larger;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 18px;
+  background-size: 20px 20px;
+}
+#btn {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #9181f4;
+  width: 124px;
+  background: linear-gradient(99.78deg, #9181f4 -5.85%, #5038ed 109.55%);
+  color: #fff;
+  padding: 17px 20px;
+  border-radius: 16px;
+  margin: 24px auto;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.login-text {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(28, 28, 28, 1);
+}
+
+.other-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(82, 82, 82, 1);
+}
+
+h3 {
+  margin-bottom: 24px;
+}
+
+.google,
+.facebook {
+  border: 1px solid #f0edff;
+  width: 364px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  gap: 8px;
+  border-radius: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.google {
+  margin-bottom: 20px;
+}
+#open-site-title {
+  display: none;
+  text-align: center;
+  color: green;
+  line-height: 50px;
+  width: 100vw;
+  height: 100%;
+  background-image: url('../image/bmw_immmg.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+#open-site-title p{
+  color:rgb(110, 99, 99);
+  font-size: 25px;
+  
+}
+#danger {
+  display: none;
+  color: red;
+  text-align: center;
+}
